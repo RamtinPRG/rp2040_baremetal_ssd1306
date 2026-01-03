@@ -30,10 +30,10 @@ No RTOS, no HAL abstractions, no C code in the data path.
 
 ## Pin Configuration
 
-| Signal | GPIO | Notes |
-|------|------|------|
-| SDA  | GPIO12 | I2C0 SDA |
-| SCL  | GPIO13 | I2C0 SCL |
+| Signal | GPIO   | Notes    |
+|--------|--------|----------|
+| SDA    | GPIO12 | I2C0 SDA |
+| SCL    | GPIO13 | I2C0 SCL |
 
 Internal pull-ups are enabled via `PADS_BANK0`.
 
