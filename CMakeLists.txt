@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(baremetal_i2c baremetal_i2c.s )
+add_executable(baremetal_i2c baremetal_i2c_animated.s )
 
 pico_set_program_name(baremetal_i2c "baremetal_i2c")
 pico_set_program_version(baremetal_i2c "0.1")
